@@ -100,8 +100,10 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ## theme: smackdown
-theme: temes-example
+theme: hexo-theme-casper
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/329821258/329821258.github.io.git'
+  branch: 'main'
