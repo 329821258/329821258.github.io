@@ -44,9 +44,9 @@ collector:
 
 ## 3. 安装ElasticSearch
 
-官网下载es的zip安装包 https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.1-windows-x86_64.zip，并解压
+官网下载es的zip安装包 https://elasticsearch.cn/download/
 
-修改confIg目录下 elasticsearch.yml文件
+解压后，修改confIg目录下 elasticsearch.yml文件
 
 ```yaml
 # 名称
@@ -103,7 +103,7 @@ storage:
 ![image-20210116193600373](https://s3.ax1x.com/2021/01/16/srCEND.png)
 
 ``` 
--javaagent:D:\Development\apache-skywalking-apm-bin\agent\skywalking-agent.jar -Dskywalking.agent.service_name=order_service -Dskywalking.collector.backend_service=localhost:11800 -Dserver.port=8089
+-javaagent:D:\Development\apache-skywalking-apm-bin\agent\skywalking-agent.jar -Dskywalking.agent.service_name=order_service -Dskywalking.collector.backend_service=localhost:11800
 ```
 
 之后启动项目访问即可在 Skywalking中看到相应的日志记录
