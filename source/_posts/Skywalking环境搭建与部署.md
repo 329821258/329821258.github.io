@@ -62,10 +62,12 @@ network.host: 127.0.0.1
 在此路径下\apache-skywalking-apm-bin\agent\config 修改服务名称为ElasticSearch中的cluster.name
 
 ``` config
-agent.service_name=${SW_AGENT_NAME: xxx } 
+agent.service_name=${SW_AGENT_NAME:xxx} 
 ```
 
 ## 5. 配置Skywalking
+
+修改apache-skywalking-apm-bin\config路径下application.yml配置，将默认的H2更改为Elasticsearch
 
 ``` yaml
 storage:
