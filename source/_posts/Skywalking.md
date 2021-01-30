@@ -14,7 +14,7 @@ aplayer:
 highlight_shrink:
 tags: 中间件
 categories: JAVA
-cover: https://s3.ax1x.com/2021/01/10/s19LHU.jpg
+cover: https://s3.ax1x.com/2021/01/16/srNcJU.jpg
 copyright_author: Bear
 copyright_author_href: https://329821258.github.io/
 copyright_url: 

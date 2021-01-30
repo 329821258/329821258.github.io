@@ -11,10 +11,26 @@ author: Bear
 # language: en
 language: zh-CN
 timezone: ''
-
+douban:
+  user: 219653111
+  builtin: true
+  book:
+    title: 'This is my book title'
+    quote: 'This is my book quote'
+  movie:
+    title: '电影'
+    quote: '---'
+    meta: true
+    comments: true
+    top_img: https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
+    aside: true
+  game:
+    title: 'This is my game title'
+    quote: 'This is my game quote'
+  timeout: 1000000000
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://329821258.github.io
+url: http://example.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -107,3 +123,4 @@ deploy:
   type: 'git'
   repo: 'https://github.com/329821258/329821258.github.io.git'
   branch: 'main'
+  
